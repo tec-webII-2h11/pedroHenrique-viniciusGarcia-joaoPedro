@@ -1,7 +1,8 @@
 # pedroHenrique-viniciusGarcia-joaoPedro
 Projeto do semestre  
-Tema: Público-alvo: 
-Objetivos do site: 
+Tema: Games
+Público-alvo: Jovens
+Objetivos do site: Notícias
 Funcionalidades do site: 
 Usuário Administrador: 
 Usuário Logado: 

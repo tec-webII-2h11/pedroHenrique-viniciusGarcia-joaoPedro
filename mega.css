@@ -1,0 +1,144 @@
+#logo{
+   height: 260px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+    border-radius: 15px;
+    border: 5px solid #000044;
+}
+hr{
+    border: 1px solid #000044;
+}
+
+body{
+    background-image: url("back.png");
+    background-attachment: fixed;
+}
+h1{
+    font-size: 160%;
+    font-family:inherit;
+    color: white;
+    text-align: center;
+}
+
+.foto{
+    
+    height: 200px;
+    width: 300px;
+    border-left: 2px solid #000044; 
+	border-right: 2px solid #000044; 
+	border-top: 2px solid #000044; 
+	border-bottom: 2px solid #000044;
+}
+article{
+   padding: 20px 100px 50px 50px;
+    height: 1545px;
+    width: 75%;
+    margin: 0 auto;
+    font: normal bold 12px/1.2em Arial, Verdana, Helvetica;
+    background-color: midnightblue;
+    border: 3px;
+    border-style: solid;
+    border-color: #000044;
+}
+p{
+    float: right;
+    font-size: 120%;
+    color: #ffffff;
+    line-height: 1.4em;
+    vertical-align: text-top;
+    text-shadow: -1px -1px #000044;
+    text-align: justify;
+
+    
+}
+
+nav	{
+	width: 85%; 
+	height: 50px; 
+	margin: 0 auto; 
+	z-index: 99; 
+	position: relative; 
+	background-color: #000044;
+    border: 2px solid #000044;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+	
+.navbar	{
+	height: 50px;
+    padding: 0;
+	margin: 0;
+	position: absolute; 
+	border-right: 1px solid #000044; 
+}
+	
+.navbar li {
+	height: auto;
+	width: 193px; 
+	float: left;  
+	text-align: center; 
+	list-style: none; 
+	font: normal bold 12px/1.2em Arial, Verdana, Helvetica;  
+	padding: 0;
+	margin: 0;
+	background-color: #000044;
+}			
+.navbar a	{							
+	padding: 18px 0;  
+	border-left: 1px solid #000044; 
+	border-right: 1px solid #003366;
+	text-decoration: none;  
+	color: white;
+	display: block; 
+
+}		
+ .navbar li:hover, a:hover {
+	background-color: blue;
+     
+}
+
+.MM2{
+    height: 280px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+
+li ul 	{
+	display: none;  
+	height: auto;									
+	margin: 0; 
+	padding: 0; 			
+}				
+.navbar li:hover ul{
+	display: block;
+}						
+.navbar li ul li {
+	background-color: #000044;
+} 
+.navbar li ul li a{
+	border-left: 1px solid #003366; 
+	border-right: 1px solid #003366; 
+	border-top: 1px solid #000044; 
+	border-bottom: 1px solid #003366; 
+}				
+.navbar li ul li a:hover	{
+	background-color: blue;
+}
+
+footer{
+    clear: both;  
+    font-size: 100%;
+    color: #ffffff;
+    font-family: sans-serif;
+    line-height: 1.4em;
+    vertical-align: text-top;
+    text-shadow: -1px -1px #666666;
+    background-color: #000044;
+    width: 85%;
+    height: 100px;
+    margin: auto;
+    border: 3px solid #000044;
+    
+}
